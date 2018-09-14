@@ -12,6 +12,7 @@ title: Patterns
   <%= partial "refills-menu" %>
 
   <div id="example">
+    <%= partial "outdated_notice" %>
 
     <section id="accordion-tabs" class="refill">
       <div class="refills-wrapper">
@@ -113,6 +114,13 @@ title: Patterns
         <%= partial "maps" %>
       </div>
       <div class="refill-snippet"><%= code_for("maps") %></div>
+    </section>
+
+    <section id="logo-section" class="refill">
+      <div class="refills-wrapper">
+        <div class="line-behind-text"><h6>Logo Section</h6></div>
+        <%= partial "logo_section" %>
+      </div>
     </section>
 
     <section id="navigation" class="refill">

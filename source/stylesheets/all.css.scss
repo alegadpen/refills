@@ -9,6 +9,7 @@
 @import "refills-styles";
 @import "refills-header";
 @import "refills-menu";
+@import "refills-notice";
 @import "refill";
 @import "refills-footer";
 @import "bourbon-nav";
@@ -28,6 +29,7 @@
   @import "refills/grid-items-lines";
   @import "refills/hero";
   @import "refills/icon-bullet-points";
+  @import "refills/logo-section";
   @import "refills/maps";
   @import "refills/navigation";
   @import "refills/scroll-on-page";
@@ -74,4 +76,11 @@
   @import "refills/type-system-serif";
   @import "refills/type-system-slab";
   @import "refills/type-system-traditional";
+}
+
+.notice {
+  font-weight: 600;
+  margin: 0;
+  padding: 2rem 4rem;
+  text-align: center;
 }
